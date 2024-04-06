@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Learning Vue</title>
+	</head>
+
+	<body>
+
+		<div id="root">
+			<ul>
+				<li v-for="name in names">{{name}}</li>
+			</ul>
+			<input type="text" v-model="newName">
+			<button v-on:click="addName">Add Name</button>
+		</div>
+
+
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script text="type/javascript" src="script.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+	margin: 0px;
+	border: 0px;
+	box-sizing: border-box;
+}
+
+
+
+.header{
+	justify-content: center;
+	background-color: rgb(144, 23, 23);
+	color: white;
+	font-family: 'Fredoka One', cursive;
+	text-align: center;
+}
+
+.page-container {
+	display: flex;
+	background-color: silver;
+	justify-content: center;
+}
+
+.page {
+	display: flex;
+	background-color: whitesmoke;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.weatherResults {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	width: 100%;
+}
+
+.forecastResults{
+	display: grid;
+	width: 1200px;
+	margin: 2rem auto;
+	grid-gap: 20px;
+	justify-content: center;
+	font-family: 'Bebas Neue', cursive;
+	background-color: rgb(206, 252, 255);
+}
+
+.threeHourBlock{
+	text-align: center;
+	border: 4mm ridge skyblue;
+	background-color: whitesmoke;
+	
+}
+
+img {
+	width: auto;
+	max-width: 1200px;
+}
+
+
+@media only screen and (max-width: 460px) {
+
+}
+
+@media only screen and (min-width: 461px) and (max-width: 1200px) {
+	.weatherResults{
+		width: 100%;
+	}
+	.forecastResults {
+		grid-template-columns: 1fr 1fr;
+	}
+	.footer {
+		width: 100%;
+	}
+	.page {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 1201px) {
+	.forecastResults {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.weatherResults{
+		width: 1200px;
+	}
+	.forecastResults{
+		width: 1200px;
+	}
+	.page {
+			width: 1200px;
+	}
+	.footer {
+		width: 1200px;
+	}
+	
+}

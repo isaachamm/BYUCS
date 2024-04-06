@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab4">
+				<Option output="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/lab4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab4"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab4/fast">
+				<Option output="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/lab4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab4/fast"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/AddAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Automaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/BlockCommentAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/ColonAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/ColonDashAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/CommaAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Database.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/DatalogProgram.cpp">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/DatalogProgram.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/EOFAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/FactsAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Header.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/IDAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Interpreter.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Left_ParenAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Lexer.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/MultiplyAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Parameter.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Parser.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/PeriodAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Predicate.cpp">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Predicate.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Q_MarkAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/QueriesAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Relation.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Right_ParenAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Rule.cpp">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Rule.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/RulesAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/SchemesAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/SingleLineCommentAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/StringAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Token.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/Tuple.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/UndefinedBlockCommentAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/UndefinedCharacterAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/UndefinedStringAutomaton.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/main.cpp">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/users/guest/i/isaacrh/tmp/tmp.Iiy1bqPtlP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

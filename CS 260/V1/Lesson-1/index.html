@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Learning Vue</title>
+</head>
+
+<body>
+  <div id="root">
+    <!-- data binding using the v-model directive -->
+    <input type="text" v-model="message">
+    <!-- data binding using mustache syntax -->
+    <p>The value of the input is: {{ message }}.</p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script text="type/javascript" src="/script.js"></script>
+</body>
+
+</html>
+<!-- <!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script src = "script.js"></script>
+	</head>
+
+	<body>
+		<div id="root">
+			<input type="text" v-model="message">
+			<p>The value of the input is: {{ message }}.</p>
+		</div>
+
+
+
+	</body>
+
+</html> -->

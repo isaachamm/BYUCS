@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/isaachamm/Documents/Classwork/CS 235/lab1/TodoList.cpp
+iostream
+-
+ostream
+-
+fstream
+-
+string
+-
+TodoList.h
+/Users/isaachamm/Documents/Classwork/CS 235/lab1/TodoList.h
+
+/Users/isaachamm/Documents/Classwork/CS 235/lab1/TodoList.h
+TodoListInterface.h
+/Users/isaachamm/Documents/Classwork/CS 235/lab1/TodoListInterface.h
+vector
+-
+
+/Users/isaachamm/Documents/Classwork/CS 235/lab1/TodoListInterface.h
+iostream
+-
+string
+-
+
+/Users/isaachamm/Documents/Classwork/CS 235/lab1/main.cpp
+iostream
+-
+string
+-
+TodoList.h
+/Users/isaachamm/Documents/Classwork/CS 235/lab1/TodoList.h
+iostream
+-
+sstream
+-
+TodoList.h
+/Users/isaachamm/Documents/Classwork/CS 235/lab1/TodoList.h
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>L4</title>
+		<link rel="stylesheet" src="styles.css">
+	</head>
+
+<body>
+
+	<div id="root">
+		<h1>Tasks</h1>
+		<ul>
+			<li v-for="task in tasks" v-text="task.description"></li>
+		</ul>
+
+		<h1>Incomplete tasks</h1>
+		<ul>
+			<li v-for="task in incompleteTasks" v-text="task.description"></li>
+		</ul>
+
+		<p> {{ message }}</p>
+		<p> I said {{ screaming }}
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script text="type/javascript" src="script.js"></script>
+</body>
+
+</html>

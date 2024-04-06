@@ -1,0 +1,39 @@
+DROP TABLE if exists "user";
+DROP TABLE if exists "event";
+DROP TABLE if exists "person";
+DROP TABLE if exists "authtoken";
+
+CREATE TABLE "user" (
+	"username"	TEXT NOT NULL,
+	"password"	TEXT NOT NULL,
+	"email"	TEXT NOT NULL,
+	"firstName"	TEXT NOT NULL,
+	"lastName"	TEXT NOT NULL,
+	"gender"	TEXT NOT NULL,
+	"personID"	TEXT NOT NULL
+);
+CREATE TABLE "person" (
+	"personID"	TEXT NOT NULL,
+	"associatedUsername"	TEXT NOT NULL,
+	"firstName"	TEXT NOT NULL,
+	"lastName"	TEXT NOT NULL,
+	"gender"	TEXT NOT NULL,
+	"fatherID"	TEXT,
+	"motherID"	TEXT,
+	"spouseID"	TEXT
+);
+CREATE TABLE "event" (
+	"eventID"	TEXT NOT NULL,
+	"associatedUsername"	TEXT NOT NULL,
+	"personID"	TEXT NOT NULL,
+	"latitude"	INTEGER NOT NULL,
+	"longitude"	INTEGER NOT NULL,
+	"country"	TEXT NOT NULL,
+	"city"	TEXT NOT NULL,
+	"eventType"	TEXT NOT NULL,
+	"year"	INTEGER NOT NULL
+);
+CREATE TABLE "authtoken" (
+	"authtoken"	TEXT NOT NULL ,
+	"username"	TEXT NOT NULL
+);

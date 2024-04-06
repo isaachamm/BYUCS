@@ -1,0 +1,10 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 The Big-O for my Natural Join function is O(n^2). More technically, it is 2n^2, but we can drop the constant 2.\
+The reason it is n^2 is because of the two nested for loops contained in this function. The first loops through the attributes for the header to determine where there is overlap and what attributes are unique, adding the unique attributes of the second relation to the unique columns set.\
+The second nested for loop is to loop through all of the tuples to 1) compare them and see if they are joinable, then 2) add join them and add them to the new relation. There is technically another n component here because we have to loop through each item within the tuple, however, I was able to keep this at n runtime by using a map and then using a single iterator to compare the overlapping columns of the tuples in a single foreach loop.}

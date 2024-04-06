@@ -1,0 +1,166 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.header-container{
+	display: flex;
+	justify-content: center;
+	background-color: rgb(186, 240, 240);
+	width: auto;
+	height: 80px;
+	align-items: center;
+}
+
+.header {
+	
+}
+
+.this-is-me {
+	font-size: 24px;
+	font-family: monospace;
+}
+
+.text {
+	font-size: 18px;
+	font-family: monospace;
+}
+
+p {
+	margin: 25px 20px;
+}
+
+.page-container{
+	display: flex;
+	justify-content: center;
+	background-color: blanchedalmond;
+}
+
+.page {
+	display: flex;
+	width: 900px;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #fff;
+}
+
+.content{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;
+	justify-content: center;
+}
+
+.masonry { /* Masonry container */
+	column-count: 1;
+	column-gap: 1em;
+	background-color: blanchedalmond;  }
+  
+.item { /* Masonry bricks or child elements */
+	background-color: #eee;
+	display: inline-block;
+	margin: 0 0 1em;
+	width: 100%;
+/*	border: 2px solid rgb(186, 240, 240); */
+  }
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.footer-container{
+	display: flex;
+	height: 250px;
+	background-color: rgb(186, 240, 240);
+	justify-content: center;
+	align-items: center;
+}
+
+.footer {
+	justify-content: center;
+}
+
+
+@media only screen and (max-width: 400px){
+	.masonry{
+		column-count: 1;
+	}
+	img {
+		display: flex;
+
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px){
+	.masonry {
+		column-count: 2;
+	}
+}
+
+@media only screen and (min-width: 961px){
+	.masonry{
+		column-count: 4;
+	}
+}
+
+
+  /*
+.masonry{
+	display: flex;
+	justify-content: center;
+}
+
+.photo-grid{
+	width: 900px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.item {
+	width: 225px;
+	height: 225px;
+	background-color: #eee;
+	display: flex;
+	flex-wrap: wrap;
+	width: auto;
+
+	
+}
+
+
+
+
+
+
+
+
+
+/*
+.menu-container {
+	background-color: beige;
+	display: flex;
+	padding: 20px;
+	justify-content: center;
+}
+
+.menu {
+	display: flex;
+	padding-top: 20px;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid #000000;
+	flex-wrap: wrap;
+	width: 900px;
+}
+
+.about,
+.portfolio,
+.reviews {
+	border: 1px solid #000;
+	font-family: 'Jazz LET, fantasy', fantasy;
+}

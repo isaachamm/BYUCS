@@ -1,0 +1,17 @@
+#python_intro.py
+
+
+def sphere_volume(r):
+    """Returns the volume of a sphere based off radius r"""
+    return 4 / 3 * 3.14159 * r**3
+
+def first_half(string):
+    """ Returns the first half of a string """
+    return string[:len() // 2]
+
+def backward(string):
+    return string[::-1]
+
+if __name__ ==  "__main__":
+    print("Hello World")
+    print(sphere_volume(3))
